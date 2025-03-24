@@ -6,31 +6,31 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
     {
-      name: "Vacation of Africa",
-      desc: " w cjanv oavnaen OVIAJNVIOw wei c uhc cuehc c uheucacnue ewslv",
+      name: "WanderLust",
+      desc: "A travel exploration web app that allows users to discover and share exciting destinations. Built with Node.js, Express, MongoDB, and EJS, it supports creating, editing, and deleting travel experiences.",
       align: "right",
-      image: "../../public/images/website-img-1.jpg",
-      link: "#",
+      image: "../../public/images/wanderlust.jpg",
+      link: "https://wanderlust-project-2-lfv1.onrender.com",
     },
     {
-      name: "Moola App",
-      desc: "afsznqieajfiovnoinv huUHAGUHAZUIHVDJVNA9UGH EURAFAHU FIgnJW IOEFJ",
+      name: "TO DO App",
+      desc: "A simple and responsive To-Do App built with React that allows users to add, edit, and delete tasks seamlessly.",
       align: "left",
-      image: "../../public/images/website-img-2.webp",
-      link: "#",
+      image: "../../public/images/TODO.png",
+      link: "https://todo-react-three-liard.vercel.app/",
     },
     {
-      name: "Tourzania",
-      desc: "dawjbef uqicj  uhvioejef cownicwjcaierj    i fenfowjai vaehfo  qnoivejf",
+      name: "Netflix Clone",
+      desc: "A Netflix Clone built with HTML, CSS, and JavaScript, featuring a responsive UI that mimics the Netflix homepage with movie cards, navigation, and hover effects.",
       align: "right",
-      image: "../../public/images/website-img-3.jpg",
-      link: "#",
+      image: "../../public/images/Netflix.png",
+      link: "https://github.com/Suryansharma18/Bharat-Intern/tree/main/Netflix",
     },
     {
-      name: "Bank of Luck",
-      desc: "efwu vbiqcun cnewof hac oijq3if eui hef jwd  fh    iv wdn isuacniua h V R",
+      name: "Blogify",
+      desc: "Blogify is a dynamic blogging platform that allows users to create, edit, and share blog posts seamlessly.",
       align: "left",
-      image: "../../public/images/website-img-4.jpg",
+      image: "../../public/images/Blogify.png",
       link: "#",
     },
   ];
@@ -55,6 +55,7 @@ const ProjectsMain = () => {
               desc={project.desc}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
