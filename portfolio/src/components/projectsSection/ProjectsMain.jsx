@@ -31,7 +31,7 @@ const projects = [
       desc: "Blogify is a dynamic blogging platform that allows users to create, edit, and share blog posts seamlessly.",
       align: "left",
       image: "../../public/images/Blogify.png",
-      link: "#",
+      link: "https://github.com/Suryansharma18/Blogify",
     },
   ];
 
