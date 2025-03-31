@@ -22,9 +22,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_kjn9277', 'template_xmbv0dm', form.current, {
-        publicKey: 'GyFWbSKooT2rn5BUj',
-      })
+      .sendForm('service_kjn9277', 'template_xmbv0dm', form.current,import.meta.env.VITE_EMAILJS_PUBLIC_KEY)
       .then(
         () => {
           setName('');
