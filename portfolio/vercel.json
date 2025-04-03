@@ -1,20 +1,6 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "build" }
-      }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
-    ],
-    "github": {
-      "enabled": true,
-      "autoJobCancelation": true,
-      "silent": false
-    },
-    "framework": "create-react-app"
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/index.html" }
+    ]
   }
   
