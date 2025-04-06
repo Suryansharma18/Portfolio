@@ -3,34 +3,39 @@ import ProjectsText from './ProjectsText'
 import SingleProject from './SingleProject'
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
+import wanderlustImg from "../../../public/images/wanderlust.jpg";
+import todoImg from "../../../public/images/TODO.png";
+import netflixImg from "../../../public/images/Netflix.png";
+import blogifyImg from "../../../public/images/Blogify.png";
+
 
 const projects = [
     {
       name: "WanderLust",
       desc: "A travel exploration web app that allows users to discover and share exciting destinations. Built with Node.js, Express, MongoDB, and EJS, it supports creating, editing, and deleting travel experiences.",
       align: "right",
-      image: "../../../public/images/wanderlust.jpg",
+      image: wanderlustImg,
       link: "https://wanderlust-project-2-lfv1.onrender.com",
     },
     {
       name: "TO DO App",
       desc: "A simple and responsive To-Do App built with React that allows users to add, edit, and delete tasks seamlessly.",
       align: "left",
-      image: "../../../public/images/TODO.png",
+      image: todoImg,
       link: "https://todo-react-three-liard.vercel.app/",
     },
     {
       name: "Netflix Clone",
       desc: "A Netflix Clone built with HTML, CSS, and JavaScript, featuring a responsive UI that mimics the Netflix homepage with movie cards, navigation, and hover effects.",
       align: "right",
-      image: "../../../public/images/Netflix.png",
+      image: netflixImg,
       link: "https://github.com/Suryansharma18/Bharat-Intern/tree/main/Netflix",
     },
     {
       name: "Blogify",
       desc: "Blogify is a dynamic blogging platform that allows users to create, edit, and share blog posts seamlessly.",
       align: "left",
-      image: "../../../public/images/Blogify.png",
+      image: blogifyImg,
       link: "https://github.com/Suryansharma18/Blogify",
     },
   ];
